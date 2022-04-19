@@ -1,17 +1,19 @@
 body{
-	
-    
      background-image: url(./images/happy.gif);
 	font-style: serif;
 }
 
 #About{
-	font-size: 50px
+	font-size: 50px;
+	color: rgb(68, 156, 228);
+	text-align: center;
+	background-color: #fff;
 }
 .pic{
 	margin:150px;
-
 }
+
+
 td,th{
 	border:solid;
     border-color: hotpink;
@@ -51,7 +53,39 @@ table{
 
 .grid{
 	display: grid;
-	grid-template-columns:repeat(auto-fit,minmax(50px,1fr));
-	grid-gap: 1rem
-	
+	grid-gap: 1rem;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+.grid1{
+	display: grid;
+	color: #fff;
+	text-align: center;
+}
+
+.grid1 h5{
+	display: grid;
+	color: #fff;
+	text-align: center;
+}
+
+h4{
+	display: grid;
+	color: #fff;
+	font-size: 30px;
+}
+
+a{
+  color: #fff;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	/* margin: 10px; */
+	text-decoration: none;
+	list-style: none;
+	justify-content: space-between;
 }
